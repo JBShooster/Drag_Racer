@@ -1,0 +1,111 @@
+
+
+body{
+	background-image: url("ocean.jpg")
+}
+
+.abs{
+	position: absolute;
+}
+
+#raceway{
+	height: 100px;
+	border: 1px solid black;
+	width: 98%;
+	border-radius: 10px;
+	background: blue;
+
+}
+
+#dragster{
+	content: url("ducky.png");
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 0px;
+	left:40px;
+	z-index: 100;
+	opacity: 1; 
+}
+
+#opponent{
+	content: url("opponent.png");
+	width: 40px;
+	height: 35px;
+	position: absolute;
+	top: 60px;
+	left:70px;
+	z-index:100;
+}
+
+
+div.track{
+	margin: 0 auto;
+	position: absolute;
+	width: inherit;
+
+}
+
+#strip{
+	width:inherit;
+	height: 120px;
+}
+
+.place {
+  height: 100px;
+  width: 10px;
+  min-height: 88px;
+  min-width: 10px;
+}
+
+#pre-staged {
+  left: 50px;
+  background: red;
+}
+
+#finish {
+  right: 49px;
+  background: white;
+}
+
+#staged {
+  left: 120px;
+  background: red;
+}
+
+
+#christmas-tree{
+	margin: 30px auto;
+	width: 300px;
+	height: 300px;
+	background-image: url("buoy.png");
+	background-position: center;
+	color: yellow;
+	text-align: center;
+	border-radius: 60%;
+	background-size: 100% 100%;
+
+}
+
+
+#pre-stage div, #stage div{
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+}
+
+.lights div{
+	display: inline-block;
+	background: white;
+}
+
+#pre-stage.lights div{
+	background: yellow;
+}
+
+.lights div{
+	width: 20px;
+	height:20px;
+	border-radius: 10px;
+}
+
